@@ -1,5 +1,5 @@
-// 1. 設定（ご自身のAPIキーに書き換えてください）
-const apiKey = 'REPLACE_ME_API_KEY'; //ここをGithub Actionsが書き換える。
+// 1. 設定
+const apiKey = 'c4ee9a71df1fde4bdc1c1e3e7edcbaac';
 const city = 'Tokyo'; 
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=ja`;
 
